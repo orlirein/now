@@ -1,0 +1,29 @@
+body {
+  background-color:#e3dede;
+}
+
+.circle1 {
+  z-index: 1;
+  background-color: #99AAC3;
+  border: 50px solid #99AAC3;
+  height: 350px;
+  width: 300px;
+  border-radius: 100%;
+  margin-left: 35%;
+  margin-top: 50px;
+  position: relative;
+
+}
+
+.circle2 {
+  background-color: #99BFC3;
+  border: 0px solid;
+  height: 185px;
+  width: 170px;
+  border-radius: 100%;
+  margin-left: 21.5%;
+  margin-top: 80px;
+  position: relative;
+
+
+}
