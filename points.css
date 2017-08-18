@@ -25,3 +25,13 @@ button:active {
   box-shadow: 0 5px lightgrey;
   transform: translateY(4px);
 }
+
+#myPoints{
+  margin-left: 28%;
+  margin-top: 13%;
+}
+
+
+#sticker{
+  margin-top: 2%;
+}
