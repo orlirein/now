@@ -7,12 +7,20 @@ function button(){
   ctx.fillStyle = "grey";
   ctx.fillRect(0, 0, x, 100);
   x += 50;
-  numPoints += 15
-  document.getElementById("woo").innerHTML = ("Points: "+ numPoints)
+  numPoints += 15;
+  document.getElementById("woo2").innerHTML = ( numPoints);
 
-  if (numPoints == 150) {
-    alert("You just won a sticker!");
-    ctx.fillStyle = "#e3dede";
-    ctx.fillRect(0, 0, 500, 100);
-  }
+  var stickers = ["CROWN", "DIAMOND", "THUMB", "STAR", "CASH", "KEY", "TROPHY", "SMILE", "CHECK", "CUPCAKE"];
+  y = 150;
+  for (i = 0; i < stickers.length; i++) {
+    if (numPoints == y) {
+      alert("You just won an achievement sticker!");
+      ctx.fillStyle = "#e3dede";
+      ctx.fillRect(0, 0, 500, 100);
+      x = 50;
+      document.getElementById(stickers[i]).style.display = 'inline-block';
+    }
+    y += 150;
+   }
+
 }
