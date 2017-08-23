@@ -1,0 +1,12 @@
+body {
+  background-color:#e3dede;
+}
+
+.pic1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-top: 50px;
+  position: relative;
+}
